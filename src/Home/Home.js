@@ -14,7 +14,7 @@ const BgBlackStyle={
 const layerOneStyle={
     paddingTop:"5%", 
     marginLeft: "80%",
-}
+}   
 const layerTwoStyle={
     
     marginTop: "10%",
@@ -126,12 +126,12 @@ const sideThreeStyle={
 const rangeThreeStyle={
     borderRadius: "20px",  
     backgroundColor: "#1A2C2C99 ",
-    border:"10px",
+    // border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"300px",
-    border: "2px solid #36A546",
+    border: "1px solid #36A546",
 
 }
 const proThursdayStyle={
@@ -157,7 +157,7 @@ const sideFourStyle={
 const rangeFourStyle={
     borderRadius: "20px",  
     backgroundColor: "#1A2C2C99 ",
-    border:"10px",
+    // border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
@@ -186,7 +186,7 @@ const sideFiveStyle={
 const rangeFiveStyle={
     borderRadius: "20px",  
     backgroundColor: "#1A2C2C99 ",
-    border:"10px",
+    // border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
@@ -217,7 +217,7 @@ const sideSixStyle={
 const rangeSixStyle={
     borderRadius: "20px",  
     backgroundColor: "#1A2C2C99 ",
-    border:"10px",
+    // border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
