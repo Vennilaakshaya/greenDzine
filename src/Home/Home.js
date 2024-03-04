@@ -14,7 +14,7 @@ const BgBlackStyle={
 const layerOneStyle={
     paddingTop:"5%", 
     marginLeft: "80%",
-}   
+}
 const layerTwoStyle={
     
     marginTop: "10%",
@@ -44,8 +44,7 @@ const layerFourSpanStyle={
 
 const productionStyle={
     textAlign:"left",
-    
-    fontSize:"20px",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
@@ -59,24 +58,28 @@ const productionStyle={
 const sideOneStyle={
     textAlign: "right",
     color: "#36A546",
+    //marginRight:"10%",
     paddingLeft:"1%",
+    
+    //marginLeft:"2px",
     width: "0%",
     height: "150%",
-    float:"right",
+    float:"right"
 }
 
 const rangeOneStyle={
     borderRadius: "20px",  
-    backgroundColor: "#1A2C2C99 ",
+    // backgroundColor: "#1A2C2C99 ",
+    border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"6px",
-    border: "1px solid #36A546"
+    backgroundColor:"#36A54680 ",
 }
 const proTuesdayStyle={
     textAlign:"left",
-    fontSize:"20px",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
@@ -89,11 +92,10 @@ const sideTwoStyle={
     textAlign: "right",
     color: "#36A546",
     paddingLeft:"1%",
-
     width: "0%",
     height: "150%",
     float:"right",
-    }
+}
 const rangeTwoStyle={
     borderRadius: "10px",  
     backgroundColor: "#1A2C2C99 ",
@@ -101,12 +103,12 @@ const rangeTwoStyle={
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
-    width:"220px"
+    width:"220px",
+    background:"#36A54680 ",
 }
 const proWednesdayStyle={
     textAlign:"left",
-    
-    fontSize:"20px",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
@@ -118,26 +120,25 @@ const proWednesdayStyle={
 const sideThreeStyle={
     textAlign: "right",
     color: "#36A546",
+    //marginRight:"10%",
     paddingLeft:"1%",
+    //marginLeft:"2px",
     width: "0%",
     height: "150%",
-    float:"right"
+    float:"right",
 }
 const rangeThreeStyle={
     borderRadius: "20px",  
-    backgroundColor: "#1A2C2C99 ",
-    // border:"10px",
+    border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"300px",
-    border: "1px solid #36A546",
-
+    backgroundColor:"#36A54680 ",
 }
 const proThursdayStyle={
     textAlign:"left",
-    
-    fontSize:"20px",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
@@ -149,24 +150,25 @@ const proThursdayStyle={
 const sideFourStyle={
     textAlign: "right",
     color: "#36A546",
+    //marginRight:"10%",
     paddingLeft:"1%",
+    //marginLeft:"2px",
     width: "0%",
     height: "150%",
     float:"right",
 }
 const rangeFourStyle={
     borderRadius: "20px",  
-    backgroundColor: "#1A2C2C99 ",
-    // border:"10px",
+    border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"250px",
-    border: "1px solid #36A546"
+    backgroundColor:"#36A54680 ",
 }
 const proFridayStyle={
-    textAlign:"left",    
-    fontSize:"20px",
+    textAlign:"left",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
@@ -178,32 +180,32 @@ const proFridayStyle={
 const sideFiveStyle={
     textAlign: "right",
     color: "#36A546",
+    //marginRight:"10%",
     paddingLeft:"1%",
+    //marginLeft:"2px",
     width: "0%",
     height: "150%",
     float:"right",
 }
 const rangeFiveStyle={
     borderRadius: "20px",  
-    backgroundColor: "#1A2C2C99 ",
-    // border:"10px",
+    border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"210px",
-    border: "1px solid #36A546"
+    backgroundColor:"#36A54680 ",
 }
 const proSaturdayStyle={
     textAlign:"left",
-    
-    fontSize:"20px",
+    fontSize:"17px",
     color: "#FFFFFF",
     top: "302px",
     marginTop:"40px",
     marginLeft:"40px",
     left: "473px",
     width: "300px",
-    height: "15px",
+    height: "15px"
 }
 const sideSixStyle={
     textAlign: "right",
@@ -211,18 +213,16 @@ const sideSixStyle={
     paddingLeft:"1%",
     width: "0%",
     height: "150%",
-    float:"right"
-
+    float:"right",
 }
 const rangeSixStyle={
     borderRadius: "20px",  
-    backgroundColor: "#1A2C2C99 ",
-    // border:"10px",
+    border:"10px",
     borderColor:" #36A546",
     marginTop:"4%",
     marginLeft:"3%",
     width:"240px",
-    border: "1px solid #36A546"
+    backgroundColor:"#36A54680 ",
 }
 
 function HomeForm() {
@@ -239,7 +239,6 @@ function HomeForm() {
 
 
     return (
-
         
            <div id="BgBlack" style={BgBlackStyle}>
 
@@ -248,7 +247,8 @@ function HomeForm() {
            </div>
 
             <div id="layerTwo" style={layerTwoStyle}>
-            <img src={imageTwo} alt="logo2"/> 
+                <div style={{width: "32px", height: "32px", borderRadius: "22px", fontSize: '18px', paddingTop: '0.5%', color: "green", backgroundColor: "#5E5E5EB5", marginLeft: "55%"}}>4</div>
+                <img src={imageTwo} alt="logo2"/> 
             </div>
 
             <div id="layerFour" style={layerFourStyle}><span style={layerFourSpanStyle}>Employee Productivity Dashboard</span></div >
@@ -301,11 +301,10 @@ function HomeForm() {
             </div>
 
             <div style={{ display: "flex", flexDirection: "row", height: "63px", background: "transparent linear-gradient(262deg, #0F2323 0%, #0F2323 40%) 0% 0% no-repeat padding-box", boxShadow: "inset 8px 4px 4px #00000040", border: "1px solid #0F2323", position: "fixed", bottom: 0, width: "100%", borderRadius: "25px 25px 0px 0px"}}>
-                <div style={{margin: "auto 0px", color: "white", width: "45%", textAlign: "center", fontStyle: "bold", fontSize: "20px"}} onClick={() => changeToHome()}>Home</div>
-                <div style={{margin: "auto 0px", width: "45%", textAlign: "center", fontStyle: "bold", fontSize: "20px", color: "#5E5E5E82"}} onClick={() => changeToEmployee()}>Employee</div>
+                <div style={{margin: "auto 0px", color: "white", width: "45%", textAlign: "center"}} onClick={() => changeToHome()}>Home</div>
+                <div style={{margin: "auto 0px", width: "45%", textAlign: "center", fontSize: "20px", color: "#5E5E5E82"}} onClick={() => changeToEmployee()}>Employee</div>
             </div>
            </div>
     );
 }
 export default HomeForm;
-
